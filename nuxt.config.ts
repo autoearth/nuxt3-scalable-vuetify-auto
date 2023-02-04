@@ -49,6 +49,17 @@ export default defineNuxtConfig({
             },
             charset: "utf-8",
             titleTemplate: '%s - Nuxt 3 Vuetify',
+            link: [
+                {
+                    rel: "stylesheet",
+                    href: "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200;300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap",
+                },
+                {
+                    rel: "icon", 
+                    type: "image/x-icon", 
+                    href: "/favicon.ico"
+                }
+            ],
             meta: [
                 { 
                   name: 'viewport', 
